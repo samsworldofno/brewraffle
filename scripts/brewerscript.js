@@ -20,7 +20,7 @@ $(document).ready(function() {
 function chooseBrewer(){
 
 var brewList = $('#name-list');
-var brewers = $('li');
+var brewers = ['swillis', 'the swilldog', 'saaaaam willis!', 'mr willis', 'babydiehard']
 
 var brewer = brewers[Math.floor(Math.random()*brewers.length)];
 
